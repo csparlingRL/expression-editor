@@ -1,0 +1,23 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "noEmitOnError": true,
+        "isolatedModules": false,
+        "removeComments": false,
+        "sourceMap": true,
+        "jsx": "react",
+        "allowJs": false,
+        "baseUrl": "./",
+        "diagnostics": true,
+        "target": "es5",
+        "suppressImplicitAnyIndexErrors": true,
+        "lib": [ "es2015", "dom", "es2015.promise", "scripthost" ]
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

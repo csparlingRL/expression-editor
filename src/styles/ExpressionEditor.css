@@ -1,0 +1,50 @@
+.header {
+    background-color: dimgrey;
+    display: block;
+    margin: 0;
+    padding: 10px;
+}
+
+.content {
+    background-color: lightgray;
+    border: 1px solid rgb(31, 144, 209);
+    padding: 5px;
+}
+
+.buttons {
+    background-color: white;
+    border: 1px solid rgb(31, 144, 209);
+    padding: 10px, 0, 5px, 5px;
+}
+
+.expr-edit {
+    color: red;
+    padding-left: 10px;
+}
+
+.expr-edit-container {
+    background-color: white;
+    border: 1px solid rgb(31, 144, 209);
+    padding: 10px, 0, 5px, 5px;
+    margin-top: 5px;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0 10px 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(31, 144, 209);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(31, 144, 209);;
+    color: white;
+}
